@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding: 10px 20px;
+    }
+
+    .hero .logo {
+        flex-direction: column;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .logo .logoImg {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .requestMoreBtn button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .hero .heroSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dogImageSection {
+        width: 111%;
+    }
+
+    .formSection {
+        width: 100%;
+    }
+
+    .formSection form {
+        gap: 30px;
+    }
+
+    .namePhone,
+    .addressBreed {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formSection label {
+        font-size: 24px;
+    }
+
+    .formSection input {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .formSection button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .contactUs {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .contactUs .phonelogo {
+        margin-bottom: 10px;
+    }
+
+    .availabelPets {
+        padding: 10px 20px;
+    }
+
+    .dogsContrainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dogsContrainer .dog {
+        margin: 10px;
+        width: 140px;
+        height: 150px;
+    }
+
+    .leftSlide,
+    .rightSlide {
+        display: none;
+    }
+
+    .reviewsConta {
+        padding: 10px 20px;
+    }
+
+    .reviewContrainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviewContrainer .review {
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+    .footerContenet {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-section form {
+        width: 100%;
+    }
+
+    .footer-section input {
+        width: 90%;
+    }
+
+    .footer-section button {
+        width: 90%;
+    }
+
+    .footerBottom {
+        text-align: center;
+    }
+
+    .socialIcons {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero .logo .logoImg {
+        width: 150px;
+    }
+
+    .formSection label {
+        font-size: 20px;
+    }
+
+    .formSection input {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .formSection button {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .contactUs .fa-phone-volume {
+        font-size: 40px;
+    }
+
+    .availabelPets .fa-angle-right,
+    .fa-angle-left {
+        font-size: 50px;
+    }
+
+    .reviewContrainer .review {
+        width: 90%;
+    }
+
+    .footer-section h3 {
+        font-size: 20px;
+    }
+
+    .footer-section p,
+    .footer-section a,
+    .footer-section label {
+        font-size: 14px;
+    }
+
+    .footer-section input,
+    .footer-section button {
+        font-size: 14px;
+    }
+
+    .socialIcons img {
+        width: 18px;
+    }
+}
