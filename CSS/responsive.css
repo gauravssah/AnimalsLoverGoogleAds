@@ -36,7 +36,10 @@
     }
 
     .dogImageSection {
-        width: 111%;
+        width: 78%;
+        border: 4px solid #15FF00;
+        border-radius: 100px;
+        margin: 10px auto;
     }
 
     .formSection {

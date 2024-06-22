@@ -7,7 +7,7 @@
 
 .requestButtontsection button {
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 800;
     background-color: #15FF00;
     border-radius: 15px;
@@ -15,4 +15,5 @@
     padding: 20px 60px;
     cursor: pointer;
     border: none;
+    box-shadow: 2px 2px 5px gray;
 }

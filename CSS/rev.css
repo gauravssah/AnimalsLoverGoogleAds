@@ -22,6 +22,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin: 15px 0px;
+    gap: 20px;
 }
 
 .reviewContrainer .review {
@@ -32,6 +33,10 @@
     overflow: hidden;
     display: flex;
     flex-flow: column;
+}
+
+p {
+    font-weight: bold;
 }
 
 .fa-star,
