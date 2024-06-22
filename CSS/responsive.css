@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 768px) {
     .hero {
-        padding: 10px 20px;
+        padding: 10px 16px 40px;
     }
 
     .hero .logo {
@@ -51,6 +51,7 @@
     .addressBreed {
         flex-direction: column;
         gap: 20px;
+        width: 100%;
     }
 
     .formSection label {
@@ -70,7 +71,7 @@
     .contactUs {
         flex-direction: column;
         text-align: center;
-        padding: 10px 20px;
+        padding: 25px 20px;
     }
 
     .contactUs .phonelogo {
@@ -141,56 +142,76 @@
     .socialIcons {
         justify-content: center;
     }
+
+    .recognized {
+        /* border: 3px solid red; */
+        padding: 10px 30px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .recognizedContainer .recog {
+        Width: 120px;
+        Height: 109px;
+        /* border: 2px solid blue; */
+        position: relative;
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     .hero .logo .logoImg {
-        width: 150px;
+        width: 250px;
     }
 
     .formSection label {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .formSection input {
         font-size: 16px;
         padding: 8px 15px;
+        width: 85%;
     }
+}
 
-    .formSection button {
-        font-size: 18px;
-        padding: 8px 15px;
-    }
+.formSection button {
+    font-size: 18px;
+    padding: 8px 15px;
+}
 
-    .contactUs .fa-phone-volume {
-        font-size: 40px;
-    }
+.contactUs .fa-phone-volume {
+    font-size: 40px;
+}
 
-    .availabelPets .fa-angle-right,
-    .fa-angle-left {
-        font-size: 50px;
-    }
+.availabelPets .fa-angle-right,
+.fa-angle-left {
+    font-size: 50px;
+}
 
-    .reviewContrainer .review {
-        width: 90%;
-    }
+.reviewContrainer .review {
+    width: 90%;
+}
 
-    .footer-section h3 {
-        font-size: 20px;
-    }
+.footer-section h3 {
+    font-size: 20px;
+}
 
-    .footer-section p,
-    .footer-section a,
-    .footer-section label {
-        font-size: 14px;
-    }
+.footer-section p,
+.footer-section a,
+.footer-section label {
+    font-size: 14px;
+}
 
-    .footer-section input,
-    .footer-section button {
-        font-size: 14px;
-    }
+.footer-section input,
+.footer-section button {
+    font-size: 14px;
+}
 
-    .socialIcons img {
-        width: 18px;
-    }
+.socialIcons img {
+    width: 18px;
 }

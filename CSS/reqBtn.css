@@ -1,0 +1,18 @@
+.requestButtontsection {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.requestButtontsection button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #15FF00;
+    border-radius: 15px;
+    color: white;
+    padding: 20px 60px;
+    cursor: pointer;
+    border: none;
+}

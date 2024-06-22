@@ -1,0 +1,37 @@
+.recognized {
+    /* border: 3px solid red; */
+    padding: 20px 118px;
+    position: relative;
+}
+
+.recognized h1 {
+    text-transform: uppercase;
+}
+
+.recognizedContainer {
+    /* border: 3px solid rgb(234, 0, 255);  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 15px 0px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 16px auto;
+    gap: 20px;
+}
+
+.recognizedContainer .recog {
+    Width: 172px;
+    Height: 180px;
+    /* border: 2px solid blue; */
+    position: relative;
+    overflow: hidden;
+}
+
+.recognizedContainer .recog img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
