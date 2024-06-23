@@ -24,6 +24,10 @@
         margin: 0 auto;
     }
 
+    .requestMoreBtn {
+        display: none;
+    }
+
     .requestMoreBtn button {
         font-size: 16px;
         padding: 10px 20px;
@@ -33,6 +37,7 @@
     .hero .heroSection {
         flex-direction: column;
         text-align: center;
+
     }
 
     .dogImageSection {
@@ -40,6 +45,7 @@
         border: 4px solid #15FF00;
         border-radius: 100px;
         margin: 10px auto;
+        display: none;
     }
 
     .formSection {
@@ -48,6 +54,7 @@
 
     .formSection form {
         gap: 30px;
+
     }
 
     .namePhone,
@@ -58,12 +65,18 @@
     }
 
     .formSection label {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .formSection input {
         font-size: 18px;
         padding: 10px 20px;
+    }
+
+    .formSection .inputBox {
+        width: 95%;
+        text-align: left;
+        margin: auto 30px;
     }
 
     .formSection button {
@@ -148,7 +161,7 @@
 
     .recognized {
         /* border: 3px solid red; */
-        padding: 10px 30px;
+        padding: 10px 20px;
         position: relative;
     }
 
@@ -158,8 +171,8 @@
     }
 
     .recognizedContainer .recog {
-        Width: 120px;
-        Height: 109px;
+        Width: 50px;
+        Height: 50px;
         /* border: 2px solid blue; */
         position: relative;
         overflow: hidden;
@@ -171,14 +184,17 @@
         width: 250px;
     }
 
-    .formSection label {
-        font-size: 25px;
-    }
 
     .formSection input {
         font-size: 16px;
         padding: 8px 15px;
         width: 85%;
+    }
+
+    .formSection .inputBox {
+        width: 95%;
+        text-align: left;
+        margin: auto 30px;
     }
 }
 
@@ -201,13 +217,13 @@
 }
 
 .footer-section h3 {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .footer-section p,
 .footer-section a,
 .footer-section label {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .footer-section input,
@@ -217,5 +233,13 @@
 }
 
 .socialIcons img {
-    width: 18px;
+    width: 50px;
+}
+
+.review .detailes {
+    margin-top: 13px;
+}
+
+.review img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
