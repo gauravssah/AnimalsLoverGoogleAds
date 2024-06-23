@@ -250,6 +250,11 @@
 
 .review .detailes {
     margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 10px;
 }
 
 .review img {
