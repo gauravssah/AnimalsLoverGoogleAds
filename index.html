@@ -15,27 +15,20 @@
     <link rel="stylesheet" href="./CSS/availabeDogsswiper.css">
 
     <script src="https://kit.fontawesome.com/faa88aff29.js" crossorigin="anonymous"></script>
-    <script src="./scripts/slider.js" defer></script>
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body>
-
     <!-- Hero Section -->
     <div class="hero">
-
         <!-- Logo -->
         <div class="logo">
-
             <div class="logoImg">
                 <img src="./IMAGES/bannerlogo.png" alt="image">
             </div>
-
             <div class="requestMoreBtn">
                 <button>REQUEST MORE PET</button>
             </div>
-
         </div>
 
         <!-- Hero Section -->
@@ -45,43 +38,31 @@
             </div>
             <div class="formSection">
                 <form action="#">
-
                     <div class="namePhone">
-
                         <div class="inputBox">
                             <label for="name">NAME</label>
                             <br>
                             <input type="text" name="name" id="name" placeholder="Enter your name">
                         </div>
-
                         <div class="inputBox">
                             <label for="phone">PHONE</label>
                             <br>
                             <input type="text" name="phone" id="phone" placeholder="Enter your number">
                         </div>
-
                     </div>
-
                     <div class="addressBreed">
-
                         <div class="inputBox">
                             <label for="address">ADDRESS</label>
                             <br>
                             <input type="text" name="address" id="address" placeholder="Enter your address">
                         </div>
-
                         <div class="inputBox">
                             <label for="breed">BREED</label>
                             <br>
                             <input type="text" name="breed" id="breed" placeholder="Enter your Dog breed">
                         </div>
-
                     </div>
-
-                    <button>
-                        Submit your request
-                    </button>
-
+                    <button>Submit your request</button>
                 </form>
             </div>
         </div>
@@ -92,69 +73,58 @@
         <div class="phonelogo">
             <i class="fa-solid fa-phone-volume"></i>
         </div>
-
         <div class="mobileno">
-            <h2>Specific Question about dOG </h2>
+            <h2>Specific Question about dOG</h2>
             <p>918252167751</p>
         </div>
-
     </div>
-
 
     <!-- Available Pets -->
     <div class="availabelPets">
         <h1>AVAILABLE PETS</h1>
-
-        <!-- ----------------------------- -->
-
-        <swiper-container class="mySwiper" pagination="true" navagation="true" pagination-clickable="true"
-            slides-per-view="3" space-between="30" free-mode="true" loop="true" speed="1000" autoplay="true">
-
-            <swiper-slide>
-                <img src="./IMAGES/dog1.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-                <img src="./IMAGES/dog2.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-                <img src="./IMAGES/dog1.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-                <img src="./IMAGES/dog2.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-                <img src="./IMAGES/dog1.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide>
-                <img src="./IMAGES/dog2.png" alt="">
-            </swiper-slide>
-
-        </swiper-container>
-
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./IMAGES/dog2.png" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+        </div>
     </div>
 
-    <!-- request BTN -->
+    <!-- Request Button Section -->
     <div class="requestButtontsection">
         <button>Request More Pet</button>
     </div>
 
-    <!-- recognized by... -->
-
+    <!-- Recognized by... -->
     <div class="recognized">
         <h1>recognized by.</h1>
-
-
         <div class="recognizedContainer">
             <div class="recog">
                 <img src="./IMAGES/rec1.png" alt="image">
             </div>
             <div class="recog">
-                <img src="./IMAGES//startupbihar.png" alt="image">
+                <img src="./IMAGES/startupbihar.png" alt="image">
             </div>
             <div class="recog">
                 <img src="./IMAGES/rec3.png" alt="image">
@@ -162,21 +132,15 @@
             <div class="recog">
                 <img src="./IMAGES/rec4.png" alt="image">
             </div>
-
         </div>
-
-
     </div>
 
     <!-- Review -->
     <div class="reviewsConta">
         <h1> Our happy customers</h1>
-
         <div class="reviewContrainer">
-
             <div class="review">
                 <img src="./IMAGES/reviewPic.png" alt="image">
-
                 <div class="detailes">
                     <p>Pawan Kumar</p>
                     <p>
@@ -189,10 +153,8 @@
                     </p>
                 </div>
             </div>
-
             <div class="review">
                 <img src="./IMAGES/reviewPic.png" alt="image">
-
                 <div class="detailes">
                     <p>Pawan Kumar</p>
                     <p>
@@ -205,10 +167,8 @@
                     </p>
                 </div>
             </div>
-
             <div class="review">
                 <img src="./IMAGES/reviewPic.png" alt="image">
-
                 <div class="detailes">
                     <p>Pawan Kumar</p>
                     <p>
@@ -221,10 +181,7 @@
                     </p>
                 </div>
             </div>
-
         </div>
-
-
     </div>
 
     <!-- Footer -->
@@ -232,18 +189,13 @@
         <div class="logo">
             <img src="./IMAGES/bannerlogo.png" alt="">
         </div>
-
         <div class="footerContenet">
-
             <div class="footer-section">
                 <h3>Contact Us</h3>
                 <p><a href="mailto:hello@animalslover.co"> <span><i class="fa-solid fa-envelope"></i></span>
                         hello@animalslover.co</a></p>
-
                 <p><a href="tel:+91918252167751"> <span><i class="fa-solid fa-phone"></i></span>+91 91825 216751</a></p>
-
                 <p><span><i class="fa-solid fa-location-dot"></i></span> Block A, 5th Floor, Mourya Lok, Patna</p>
-
             </div>
             <div class="footer-section">
                 <h3>Our Services</h3>
@@ -255,7 +207,6 @@
                     <li><a href="#">Dog Grooming</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
 
@@ -267,10 +218,40 @@
         </div>
     </div>
 
-
     <!-- Swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiper = new Swiper('.mySwiper', {
 
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    480: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1200: {
+                        slidesPerView: 3,
+                    },
+                },
+            });
+        });
+    </script>
 </body>
 
 </html>
