@@ -13,12 +13,16 @@
 
 }
 
-.hero .logo {
+.logo {
     /* border: 3px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 120px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 500;
 }
 
 .logo .logoImg {
@@ -92,14 +96,13 @@
 }
 
 .formSection {
-    /* border: 3px solid rgb(0, 255, 136); */
+
     width: 74%;
     margin: auto;
 }
 
 .formSection form {
     display: flex;
-    /* border: 2px solid orange; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
