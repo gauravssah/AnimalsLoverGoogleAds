@@ -8,9 +8,15 @@
 }
 
 
+
 @media only screen and (max-width: 768px) {
     .hero {
         padding: 10px 16px 40px;
+    }
+
+    .logo {
+
+        padding: 20px 50px;
     }
 
     .hero .logo {
@@ -24,14 +30,10 @@
         margin: 0 auto;
     }
 
-    .requestMoreBtn {
-        display: none;
-    }
-
     .requestMoreBtn button {
         font-size: 16px;
         padding: 10px 20px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
 
     .hero .heroSection {
@@ -184,6 +186,17 @@
         width: 250px;
     }
 
+    .logo {
+
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    .requestMoreBtn button {
+        font-size: 14px;
+        padding: 10px 25px;
+        /* margin-top: 20px; */
+    }
 
     .formSection input {
         font-size: 16px;
