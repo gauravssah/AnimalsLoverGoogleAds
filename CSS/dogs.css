@@ -13,47 +13,21 @@
     position: relative;
 }
 
-.dogsContrainer {
-    /* border: 3px solid rgb(234, 0, 255); */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 15px 0px;
-}
 
-.dogsContrainer .dog {
-    Width: 172px;
-    Height: 180px;
-    /* border: 2px solid blue; */
-    position: relative;
+.availabelPets .swiper-container .dogsize {
+    /* border: 4px solid rgb(17, 0, 255); */
+    height: 300px;
     overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.dogsContrainer .dog img {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
-.leftSlide {
-    position: absolute;
-    left: 45px;
-    top: 50%;
-}
 
-.rightSlide {
-    position: absolute;
-    right: 45px;
-    top: 50%;
-}
 
-.availabelPets .fa-angle-right,
-.fa-angle-left {
-    color: #15FF00;
-    font-size: 70px;
-}
+
+
+
+
 
 
 /* --------------------------- */
